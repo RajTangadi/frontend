@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  top: 150px;
+  left: 75px;
+  height: 330px;
+  width: 600px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 0px 2px 9px grey;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+#author {
+  position: absolute;
+  bottom: 30px;
+  right: 170px;
+  color: white;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+#author::before{
+content: "--- ";
+}
+
+.top i{
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.bottom i{
+  position: absolute;
+  bottom: 85px;
+  right: 45px;
+  font-size: 20px;
+  color: white;
+}
+#text {
+  position: absolute;
+  top: 120px;
+  left: 25px;
+  padding: 17px;
+  color: white;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+
+#randomQuote{
+
+position: absolute;
+bottom: 150px;
+left: 290px;
+padding: 10px;
+background-color: red;
+color: white;
+border-radius: 10px;
+box-shadow: 0px 2px 9px grey;
+}
